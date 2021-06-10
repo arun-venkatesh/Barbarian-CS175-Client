@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">Barbarian</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <!--MainActivity-->
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="attmps_rem">No. of attempts remaining : 5</string>
+    <string name="attmps_rem_1">No. of attempts remaining : </string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="login">Login</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="new_user">New User?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="welcome">Welcome to </string>
+
+    <string name="msg_details_missing">Please enter all the details!</string>
+
+
+    <!--CongratulationsActivity-->
+    <string name="congratulations">Congratulations !!!</string>
+    <string name="you_now_have_a">You now have a</string>
+    <string name="pantry_buddy">Barbarian account!!</string>
+    <string name="pantry">Pantry</string>
+
+    <!--ForgotPasswordActivity-->
+    <string name="send_otp">Send OTP</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="verify_otp">Verify OTP</string>
+    <string name="enter_new_password">Enter New Password</string>
+    <string name="submit">Submit</string>
+
+    <string name="msg_enter_email">Please enter the email!</string>
+    <string name="msg_enter_otp_to_verify">Please enter the OTP to verify!</string>
+    <string name="msg_text_otp">Welcome to Barbarian. Your OTP is :</string>
+
+    <!--ProfileActivity-->
+    <string name="empty_pantry">Uh Oh! It looks empty in here.</string>
+    <string name="items_in_pantry">Get started using the \'+\' icon</string>
+
+    <!--RegistrationActivity-->
+    <string name="register_with_us">Create your free account</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="phone_num">Phone Number</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="password_rules">\nPassword should be greater than 5 characters and have atleast one upper case letter, lowercase letter and number.</string>
+    <string name="next">Next</string>
+    <string name="verify_user">Verify Identity</string>
+    <string name="msg_registration_success">Registration Successful</string>
+    <string name="title_activity_add_item">AddItemActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+
+
+    <!--AddItemActivity-->
+
+    <string name="add_item">Add Item</string>
+    <string name="scan_bar_code">Scan Barcode</string>
+    <string name="item_name">Item Name : </string>
+    <string name="scan_date">Scan Date</string>
+    <string name="date">Date : </string>
+    <string name="done">Done</string>
+    <string name="msg_point_camera">Point Camera at Barcode</string>
+    <string name="title_activity_pop_up">PopUpActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+
+
+    <!--Food Pref -->
+    <string name="foodPref">Food Preferences</string>
+    <string name="favfood">What are your favorite foods?</string>
+    <string name="allergfood">What foods are you allergic to or dislike?</string>
+    <string name="save_preference">Save Preferences</string>
+    <string name="title_activity_navigation_drawer">NavigationDrawerActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+</resources>

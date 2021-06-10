@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">PantryBuddy</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="enter_email">ईमेल पता</string>
+    <!-- TODO:Configure all the msgs for hindi-->
+    <string name="enter_password">Enter Password</string>
+
+    <string name="attmps_rem">No. of attempts remaining : 5</string>
+    <string name="attmps_rem_1">No. of attempts remaining : </string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="login">Login</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="new_user">New User?</string>
+    <string name="sign_up">Sign Up</string>
+
+    <string name="msg_details_missing">Please enter all the details!</string>
+
+
+    <!--CongratulationsActivity-->
+    <string name="congratulations">Congratulations !!!</string>
+    <string name="you_now_have_a">You now have a</string>
+    <string name="pantry_buddy">Pantry Buddy!!</string>
+    <string name="pantry">Pantry</string>
+
+    <!--ForgotPasswordActivity-->
+    <string name="send_otp">Send OTP</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="verify_otp">Verify OTP</string>
+    <string name="enter_new_password">Enter New Password</string>
+    <string name="submit">Submit</string>
+
+    <string name="msg_enter_email">Please enter the email!</string>
+    <string name="msg_enter_otp_to_verify">Please enter the OTP to verify!</string>
+    <string name="msg_text_otp">Welcome to Pantry Buddy. Your OTP is :</string>
+
+    <!--ProfileActivity-->
+    <string name="welcome_pantry_buddy">Welcome to Pantry Buddy!!</string>
+    <string name="items_in_pantry">Items in Pantry : </string>
+
+    <!--RegistrationActivity-->
+    <string name="welcome">Welcome,</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="phone_num">Phone Number</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="password_rules">Password should be greater than 5 characters and have atleast one upper case letter, lowercase letter and number.</string>
+    <string name="next">Next</string>
+
+    <string name="msg_registration_success">Registration Successful</string>
+
+    <string name="title_activity_add_item">AddItemActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <!--AddItemActivity-->
+
+    <string name="add_item">Add Item</string>
+    <string name="scan_bar_code">Scan Barcode</string>
+    <string name="item_name">Item Name : </string>
+    <string name="scan_date">Scan Date</string>
+    <string name="date">Date : </string>
+    <string name="done">Done</string>
+    <string name="msg_point_camera">Point Camera at Barcode</string>
+</resources>

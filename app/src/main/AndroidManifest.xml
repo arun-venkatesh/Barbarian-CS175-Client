@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pantrybuddy">
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <uses-feature android:name="android.hardware.type.watch" />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:name=".stubs.GlobalClass"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PantryBuddy"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".activity.EditProfileActivity"></activity>
+        <activity android:name=".activity.StockPreferenceActivity" />
+        <activity
+            android:name=".activity.PopUpActivity"
+            android:theme="@style/Theme.PantryBuddy.PopUp" />
+        <activity android:name=".activity.AllergyDetailsActivity" />
+        <activity android:name=".activity.FoodPreferencesActivity" />
+
+        <meta-data
+            android:name="com.google.android.gms.vision.DEPENDENCIES"
+            android:value="barcode" />
+
+        <activity android:name=".activity.ForgotPasswordActivity" />
+        <activity android:name=".activity.CongratulationsActivity" />
+        <activity
+            android:name=".activity.ProfileActivity"
+            android:theme="@style/Theme.PantryBuddy.NoActionBar" />
+        <activity android:name=".activity.RegistrationActivity" />
+        <activity android:name=".activity.AddItemActivity" />
+        <activity
+            android:name=".activity.BarcodeScannerActivity"
+            android:theme="@style/Theme.PantryBuddy.CustomTheme" />
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.PantryBuddy.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <service
+            android:enabled="true"
+            android:name=".activity.appService"
+            android:exported="false"
+            android:stopWithTask="false" />
+    </application>
+
+</manifest>
